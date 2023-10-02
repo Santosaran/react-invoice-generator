@@ -22,7 +22,7 @@ class App extends Component {
    addNewItem=()=>{
     this.setState({
       invoiceItems:[...this.state.invoiceItems,{itemName:'', itemsQuantity:0, itemRate:0 }]
-    });
+    }); 
   }
   deleteItem=(ind)=>{
     let item=[...this.state.invoiceItems];

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import InvoiceDetails from './invoice/invoiceDetails'; 
 import InvoiceHeader from "./invoice/invoiceHeader"; 
 import logo from './download.jpg';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'; 
  
 class App extends Component {
   constructor(){
